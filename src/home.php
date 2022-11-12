@@ -1,0 +1,231 @@
+<!-- Jai Shree Krishna -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infomate - Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+
+    <!-- -----------------Navigation Section----------- -->
+    <?php require_once 'header.html'; ?>
+    <?php require_once 'askInfomate.php' ?>
+
+
+    <!-- -----------------Central Body Section----------- -->
+    <div class="container-fluid position-fixed top-0 bottom-0" style="margin-top:68px;" id="content-wrapper">
+        <div class="row bg-light " style="height: 100%;">
+
+            <!-- ---------------------Space Section  ---------------->
+            <div class="col-md-3 d-none d-md-block overflow-auto h-100">
+                <div class="mySpaces text-center">
+                    <h4 class="my-3">My Spaces</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h6>Space 1</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 2</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 3</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 4</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 5</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 1</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 2</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 3</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 4</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 5</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <!-- --------------------Post Section------------------ -->
+            <div class="col-12 col-md-6 overflow-auto overflow-auto h-100">
+
+                <div class="post mb-3 border shadow-sm">
+                    <!-- -------------------------Post Header------------------ -->
+                    <div class="container postHeader darkgrad d-flex justify-content-start p-3">
+                        <div class="profileImg">
+                            <img src="assets/Aeshtech.jpg" alt="Profile" class="w-100 border rounded-circle">
+                        </div>
+                        <div class="profileDetails lh-1 p-1 ms-1">
+                            <span class="fw-bold m-0 d-block">Ashish Sharma</span>
+                            <span class="" style="font-family: sans-serif;">Posted on 11 Feb 2022</span>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------Post Body--------------------- -->
+                    <div class="postBody d-flex flex-column">
+                        <h6 class="postTitle fw-bold">How optical fiber are used to send data at light speed ?</h6>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptas dicta est, corrupti explicabo neque facilis error iste, consectetur architecto earum commodi consequuntur veritatis quod ipsa doloribus? Doloribus, perspiciatis ducimus!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsa saepe labore asperiores eligendi assumenda, sunt neque, nobis id dolorum voluptate, sit dignissimos ipsum quo reiciendis cum ex facilis animi.</p>
+                        </div>
+                        <div class="postImage"><img src="assets/myImage.jpg" alt="Image" class="w-100"></div>
+                    </div>
+
+                    <!-- -------------------------Post Footer------------------- -->
+                    <div class="postFooter d-flex flex-row py-2 justify-content-around ">
+                        <div class="me-3">
+                        <button class="btn darkgrad btn-sm rounded-pill"><i class="far fa-comment"></i> <span>21</span></button>
+                        </div>
+                        <div class="me-3">
+                        <button class="btn darkgrad btn-sm rounded-pill"><i class="fas fa-edit pe-1"></i><span>Give Answer</span></button>
+                        </div>
+                        <div class="align-self-center">
+                        <span class="badge rounded-pill darkgrad">PID-125</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post mb-3 border shadow-sm">
+                    <!-- -------------------------Post Header------------------ -->
+                    <div class="container postHeader darkgrad d-flex justify-content-start p-3">
+                        <div class="profileImg">
+                            <img src="assets/Aeshtech.jpg" alt="Profile" class="w-100 border rounded-circle">
+                        </div>
+                        <div class="profileDetails lh-1 p-1 ms-1">
+                            <span class="fw-bold m-0 d-block">Ashish Sharma</span>
+                            <span class="" style="font-family: sans-serif;">Posted on 11 Feb 2022</span>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------Post Body--------------------- -->
+                    <div class="postBody d-flex flex-column">
+                        <h6 class="postTitle fw-bold">How optical fiber are used to send data at light speed ?</h6>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptas dicta est, corrupti explicabo neque facilis error iste, consectetur architecto earum commodi consequuntur veritatis quod ipsa doloribus? Doloribus, perspiciatis ducimus!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsa saepe labore asperiores eligendi assumenda, sunt neque, nobis id dolorum voluptate, sit dignissimos ipsum quo reiciendis cum ex facilis animi.</p>
+                        </div>
+                        <div class="postImage"><img src="assets/myImage.jpg" alt="Image" class="w-100"></div>
+                    </div>
+
+                    <!-- -------------------------Post Footer------------------- -->
+                    <div class="postFooter d-flex flex-row py-2 justify-content-around ">
+                        <div class="me-3">
+                        <button class="btn darkgrad btn-sm rounded-pill"><i class="far fa-comment"></i> <span>21</span></button>
+                        </div>
+                        <div class="me-3">
+                        <button class="btn darkgrad btn-sm rounded-pill"><i class="fas fa-edit pe-1"></i><span>Give Answer</span></button>
+                        </div>
+                        <div class="align-self-center">
+                        <span class="badge rounded-pill darkgrad">PID-125</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post mb-3 border shadow-sm">
+                    <!-- -------------------------Post Header------------------ -->
+                    <div class="container postHeader darkgrad d-flex justify-content-start p-3">
+                        <div class="profileImg">
+                            <img src="assets/Aeshtech.jpg" alt="Profile" class="w-100 border rounded-circle">
+                        </div>
+                        <div class="profileDetails lh-1 p-1 ms-1">
+                            <span class="fw-bold m-0 d-block">Ashish Sharma</span>
+                            <span class="" style="font-family: sans-serif;">Posted on 11 Feb 2022</span>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------Post Body--------------------- -->
+                    <div class="postBody d-flex flex-column">
+                        <h6 class="postTitle fw-bold">How optical fiber are used to send data at light speed ?</h6>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptas dicta est, corrupti explicabo neque facilis error iste, consectetur architecto earum commodi consequuntur veritatis quod ipsa doloribus? Doloribus, perspiciatis ducimus!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsa saepe labore asperiores eligendi assumenda, sunt neque, nobis id dolorum voluptate, sit dignissimos ipsum quo reiciendis cum ex facilis animi.</p>
+                        </div>
+                        <div class="postImage"><img src="assets/myImage.jpg" alt="Image" class="w-100"></div>
+                    </div>
+
+                    <!-- -------------------------Post Footer------------------- -->
+                    <div class="postFooter d-flex flex-row py-2 justify-content-around ">
+                        <div class="me-3">
+                        <button class="btn darkgrad btn-sm rounded-pill"><i class="far fa-comment"></i> <span>21</span></button>
+                        </div>
+                        <div class="me-3">
+                        <button class="btn darkgrad btn-sm rounded-pill"><i class="fas fa-edit pe-1"></i><span>Give Answer</span></button>
+                        </div>
+                        <div class="align-self-center">
+                        <span class="badge rounded-pill darkgrad">PID-125</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- --------------------Highlights Section------------- -->
+            <div class="col-md-3  d-none d-md-block overflow-auto h-100">
+                <div class="highlights text-center">
+                    <h4 class="my-3">Highlights</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h6>Space 1</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 2</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 3</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 4</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 5</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 1</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 2</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 3</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 4</h6>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Space 5</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<script src="https://kit.fontawesome.com/471f9934c1.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+
+</html>

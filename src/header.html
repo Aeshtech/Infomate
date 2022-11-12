@@ -1,0 +1,140 @@
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg position-fixed start-0 end-0 darkgrad nav_body border-bottom border-secondary shadow-sm" id="navbar" style="top:0px; z-index: 99;">
+
+    <div class="container-fluid position-relative ">
+
+        <a class="navbar-brand d-inline" href="#">
+            <h3>Infomate</h3>
+        </a>
+
+        <!-- -------------------Navigation Area---------------- -->
+        <div class="d-flex flex-grow-1">
+            <ul class="navbar-nav flex-row ">
+                <li class="nav-item" title="Search">
+                    <button type="button" class="btn" role="button" href="#" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"><i class="fas fa-search"></i></a></button>
+                </li>
+                <li class="nav-item" title="Answer">
+                    <button type="button" class="btn" role="button" href="#" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"><i class="far fa-edit  main_answer"></i></a></button>
+                </li>
+                <li class="nav-item" title="Notifications ">
+                    <button type="button" class="btn" role="button" href="#" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"><i class="far fa-bell main_notification"></i></button>
+                </li>
+                <li class="nav-item d-none d-md-block" title="Ask Infomate">
+                    <button type="button" class="btn border border-2 border-light rounded-pill infomate-btn fs-5" data-bs-toggle="modal"
+                        data-bs-target="#askInfomate">Ask Infomate</button>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- ------------------Profile------------------- -->
+        <div class="d-flex flex-grow dropdown " title="Profile ">
+            <button type="button" class="btn dropdown-toggle rounded-circle" data-bs-toggle="dropdown" aria-expanded="false" role="button" id="profile"><img src="assets/Aeshtech.jpg" class="rounded-circle" alt="" width="40" height="40"></button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profile">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+        </div>
+    </div>
+
+
+    <!-- -------------Flying button for for mobile im buttons----------- -->
+    <div class="flying-im-btn position-fixed d-md-none">
+        <button type="button" class="btn rounded-circle btn-primary" data-bs-toggle="modal"
+            data-bs-target="#flying-im-btn"><i class="fas fa-plus-circle"></i></button>
+    </div>
+
+</nav>
+
+
+
+<!-- ---------------Modal for mobile im buttons-------------- -->
+<div class="modal fade" id="flying-im-btn" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog m-0">
+        <div class="modal-content" style="height:100vh">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer flex-column justify-content-end align-items-end border-0">
+                <button type="button" class="btn" role="button" href="#" data-bs-toggle="modal"
+                    data-bs-target="#spaces-modal"><span>Spaces</span><i
+                        class="fas fa-users  p-2 ms-2 rounded-circle brown"></i></a></button>
+                <button type="button" class="btn" role="button" href="#" data-bs-toggle="modal"
+                    data-bs-target="#highlights-modal"> <span>Highlights</span><i
+                        class="fas fa-medal p-2 ms-2 rounded-circle brown"></i></button>
+                <button type="button" class="btn" id="ask-im-btn" data-bs-toggle="modal"
+                    data-bs-target="#ask-im-modal"><span>Ask Infomate</span><i
+                        class="fas fa-plus-circle p-2 ms-2 rounded-circle brown"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------------- -->
+
+
+
+
+<!-- ---------------Modal for Spaces Followed by User-------------- -->
+<div class="modal fade" id="spaces-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable m-0">
+        <div class="modal-content" style="height:100vh">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>Spaces you have followed</h1>
+            </div>
+            <div class="modal-footer flex-column justify-content-end align-items-end border-0">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------------- -->
+
+
+
+<!-- ---------------Modal for Highlights-------------- -->
+<div class="modal fade" id="highlights-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable m-0">
+        <div class="modal-content" style="height:100vh">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>Top Highlighted Users</h1>
+            </div>
+            <div class="modal-footer flex-column justify-content-end align-items-end border-0">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------------- -->
+
+
+
+<!-- ---------------Modal for Ask Infomate-------------- -->
+<div class="modal fade" id="ask-im-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable m-0">
+        <div class="modal-content" style="height:100vh">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>Ask Infomate</h1>
+            </div>
+            <div class="modal-footer flex-column justify-content-end align-items-end border-0">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------------- -->

@@ -1,0 +1,100 @@
+/* ----------Jai Shree Krishna----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: poppins;
+}
+
+:root {
+    --navyblue: #000022;
+    --darkgrad: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    --purpink: linear-gradient(to right, #7f00ff, #e100ff);
+    --golden: #CBB26A;
+}
+.brown{
+    background: brown;
+    color: white;
+}
+.darkgrad{
+    background: var(--darkgrad);
+    color: white;
+}
+.purpink{
+    background: var(--purpink);
+    color: white;
+}
+
+/* -----------------------Header Styles--------------------- */
+
+ul.navbar-nav li button {
+    margin: 0 10px;
+    color: rgb(255, 255, 255) !important;
+    font-size: x-large;
+}
+
+.navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin: 0 100px;
+}
+
+.navbar-nav .infomate-btn:hover {
+    background: var(--darkgrad);
+    color: white !important;
+}
+
+.navbar-brand h3:hover, nav i:hover {
+    color: var(--navyblue);
+    transform: translateY(-1px);
+}
+  
+  .navbar  .flying-im-btn {
+    right: 10px;
+    bottom: 20px;
+}
+#profile::after{
+    content: none;
+}
+@media screen and (max-width: 768px) {
+    nav.navbar {
+        height: 45px;
+        padding-top: 0;
+    }
+
+    .navbar .navbar-brand {
+        margin: 0;
+    }
+
+    ul.navbar-nav li button {
+        font-size: large;
+    }
+}
+
+
+
+/* ------------------Central Body Section------------------- */
+.mySpaces li, .highlights li{
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.mySpaces li h6, .highlights li h6{
+    display: inline-block;
+    margin: 0 10px;
+}
+.post .postHeader{
+    height: 70px;
+}
+.post .postHeader .profileImg{
+    height: 39px;
+    width: 39px;
+}
+.postHeader .profileDetails span{
+    font-size: 13px;
+}
+.postBody .content > p{
+    font-family:Arial, Helvetica, sans-serif;
+} 
+.postBody .postImage{
+    width: 100%;
+}
